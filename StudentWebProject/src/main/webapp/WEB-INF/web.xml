@@ -1,0 +1,105 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+
+	<servlet>
+		<servlet-name>StudentsServlet</servlet-name>
+		<display-name>StudentsServlet</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.StudentsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LoginValidate</servlet-name>
+		<display-name>LoginValidate</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.LoginValidate</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<display-name>LogoutServlet</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateServlet</servlet-name>
+		<display-name>UpdateServlet</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.UpdateServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Delete</servlet-name>
+		<display-name>Delete</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.Delete</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>UpdateExam</servlet-name>
+		<display-name>UpdateExam</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.UpdateExam</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteExam</servlet-name>
+		<display-name>DeleteExam</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.DeleteExam</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddExam</servlet-name>
+		<display-name>AddExam</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.AddExam</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteMark</servlet-name>
+		<display-name>DeleteMark</display-name>
+		<description></description>
+		<servlet-class>com.dxc.servlet.DeleteMark</servlet-class>
+	</servlet>
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>StudentsServlet</servlet-name>
+		<url-pattern>/students</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginValidate</servlet-name>
+		<url-pattern>/loginValidate</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateServlet</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Delete</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateExam</servlet-name>
+		<url-pattern>/updateExam</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteExam</servlet-name>
+		<url-pattern>/deleteExam</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddExam</servlet-name>
+		<url-pattern>/addExam</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteMark</servlet-name>
+		<url-pattern>/deleteMark</url-pattern>
+	</servlet-mapping>
+
+</web-app>
